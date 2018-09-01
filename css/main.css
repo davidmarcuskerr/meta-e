@@ -172,13 +172,15 @@ textarea {
 
 /*-------------header bg----------------------------------------------------*/
 
-#header-img{
+#header{
     height:600px;
     background-image: url("header-bg-2.png");
     background-size:cover;
     background-position:0 -160px;
     background-color:#cccccc;
 }
+
+
 
 
 
