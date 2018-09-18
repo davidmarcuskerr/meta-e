@@ -98,13 +98,58 @@ textarea {
    ========================================================================== */
 
 *{
-  font-family:"Ubuntu";
+  font-family:"Gothic A1";
   box-sizing:border-box;
+}
+.tupperware{
+  margin:0 auto;
+  max-width:1170px;
+  box-sizing: border-box;
+}
+.container{
+  padding:0 5%;
+}
+.float{
+  float:left;
+}
+.thin{
+  font-weight:100;
+}
+.light{
+  font-weight:300;
+}
+.regular{
+  font-weight:400;
+}
+.heavy{
+  font-weight:700;
+}
+.green{
+  color:#39bb6d;
+}
+.light-blue{
+  color:#3185b5;
+}
+.no-margin{
+  margin:0;
+}
+.bigtext{
+  font-size:1.5em;
+}
+.biggertext{
+  font-size:2.2em;
+}
+.textbox{
+  background-color:#0c4071;
+  padding:15px;
+  box-shadow:8px 8px 1px rgba(36, 54, 70, .9);
+  margin:20px;
+  border-radius:5px;
 }
 
 /*-------dropdown nav-----------------------------------------------------------*/
 .nav-container{
-  padding-top:255px;
+  padding-top:256px;
 }
 /* Navbar container */
 .navbar {
@@ -251,11 +296,7 @@ textarea {
 
 
 
-.tupperware{
-  margin:0 auto;
-  max-width:1170px;
-  box-sizing: border-box;
-}
+
 
 footer{
   background-image: url("header-bg-2.png");
@@ -306,13 +347,94 @@ footer a:hover{
 }
 
 .sec-1, .sec-3{
-  background-color:rgba(202, 203, 215, .9);
+  background-color:rgba(202, 203, 215, .85);
 }
 
 .sec-2{
   background-color:rgba(36, 54, 70, .9);
   color:rgb(202 203 215);
 }
+
+.tag{
+  background-color:#0c4071;
+  width:100px;
+  border-radius:0 5px 5px 0;
+  position:relative;
+  top:12px;
+  text-align:center;
+  color:#cacbd7;
+}
+.tag p{
+  padding:10px 0;
+  margin:0;
+}
+
+.homeheader{
+  text-align:center;
+  padding:10px 0;
+  background-color:#243646;
+}
+
+
+
+#home-sec-2-intro p{
+  text-align:center;
+}
+#home-sec-2-intro h3{
+  padding-top:30px;
+}
+#home-sec-2-intro h4{
+  margin:10px 0;
+}
+#home-sec-2-text{
+  margin:0 auto;
+  padding-bottom:60px;
+}
+#home-sec-2-text h4{
+  margin:30px 0 10px 0;
+}
+.home-sec-2-details{
+  box-sizing:border-box;
+  display:inline-block;
+  text-align:center;
+  vertical-align:top;
+}
+.home-sec-2-details h4{
+  margin:30px 0 10px 0;
+}
+
+@media screen and (min-width:800px) {
+  #home-sec-2-intro{
+    width:60%
+  }
+  #home-sec-2-intro p{
+    text-align:left;
+  }
+  .container{
+    padding:0 1%;
+  }
+  .home-sec-2-details{
+    padding:0 1%;
+    width:24.5%;
+  }
+}
+
+@media screen and (min-width:800px) and (max-width:1000px) {
+  .home-sec-2-details{
+    box-sizing:border-box;
+    width:49%;
+    padding:0 1%;
+    display:inline-block;
+    text-align:center;
+    vertical-align:top;
+  }
+}
+
+
+
+
+
+
 
 
 
