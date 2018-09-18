@@ -389,6 +389,10 @@ footer a:hover{
 #home-sec-2-text{
   margin:0 auto;
   padding-bottom:60px;
+  display:flex;
+  justify-content:space-evenly;
+  align-items:baseline;
+  flex-wrap:wrap;
 }
 #home-sec-2-text h4{
   margin:30px 0 10px 0;
@@ -397,7 +401,7 @@ footer a:hover{
   box-sizing:border-box;
   display:inline-block;
   text-align:center;
-  vertical-align:top;
+  /* vertical-align:top; */
 }
 .home-sec-2-details h4{
   margin:30px 0 10px 0;
@@ -420,6 +424,9 @@ footer a:hover{
 }
 
 @media screen and (min-width:800px) and (max-width:1000px) {
+  #home-sec-2-text{
+    flex-wrap:wrap;
+  }
   .home-sec-2-details{
     box-sizing:border-box;
     width:49%;
