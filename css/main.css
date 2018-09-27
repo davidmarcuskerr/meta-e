@@ -522,20 +522,13 @@ footer a:hover{
 .team-bio-2{
   width:100%;
 }
-.team-sec-2-details{
-  display:flex;
-  justify-content:space-evenly;
-}
-#innovation{
-  padding:0 10px;
-}
 .team-sec-3{
   padding-top:30px
 }
 
 /* ---------------------------media queries----------------------------- */
 
-@media screen and (min-width:350px){
+@media screen and (min-width:350px) {
   .header-banner{
     padding-top:80px;
     width:80%;
@@ -552,14 +545,14 @@ footer a:hover{
     width:160px
   }
 }
-@media screen and (min-width:500px) and (max-width:800px){
+@media screen and (min-width:500px) and (max-width:800px) {
   .home-sec-2-boxes{
     margin:0 auto;
     margin-top:20px;
     width:450px
   }
 }
-@media screen and (min-width:650px){
+@media screen and (min-width:650px) {
   .header-banner{
     padding-top:120px;
     width:45%;
@@ -578,12 +571,12 @@ footer a:hover{
     height:200px;
   }
 }
-@media screen and (max-width:900px){
+@media screen and (max-width:900px) {
   .header{
     background-position:0;
   }
 }
-@media screen and (min-width:730px) and (max-width:1000px){
+@media screen and (min-width:730px) and (max-width:1000px) {
   .home-bio{
     width:50%;
     margin-bottom:0;
@@ -678,6 +671,13 @@ footer a:hover{
   .team-sec-2-intro{
     width:60%;
   }
+  .team-sec-2-details{
+    display:flex;
+    justify-content:space-evenly;
+  }
+  #innovation{
+    padding:0 20px;
+  }
 }
 @media screen and (min-width:800px) and (max-width:1000px) {
   #home-sec-2-text{
@@ -692,7 +692,7 @@ footer a:hover{
     vertical-align:top;
   }
 }
-@media screen and (max-width:1200px) and (min-width:800px) {
+@media screen and (min-width:800px) and (max-width:1200px) {
   .nav-container{
     padding-top:400px;
   }
@@ -700,7 +700,7 @@ footer a:hover{
     height:450px;
   }
 }
-@media screen and (min-width:1000px){
+@media screen and (min-width:1000px) {
   .home-bio{
     width:33%
   }
