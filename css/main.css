@@ -522,6 +522,16 @@ footer a:hover{
 .team-bio-2{
   width:100%;
 }
+.team-sec-2-details{
+  display:flex;
+  justify-content:space-evenly;
+}
+#innovation{
+  padding:0 10px;
+}
+.team-sec-3{
+  padding-top:30px
+}
 
 /* ---------------------------media queries----------------------------- */
 
@@ -664,6 +674,9 @@ footer a:hover{
   }
   .team-bio-2{
     width:50%;
+  }
+  .team-sec-2-intro{
+    width:60%;
   }
 }
 @media screen and (min-width:800px) and (max-width:1000px) {
