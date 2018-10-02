@@ -526,6 +526,17 @@ footer a:hover{
   padding-top:30px
 }
 
+/*----------------------------services--------------------------------*/
+.services-sec-1, .services-sec-2, .services-sec-3{
+  display:flex;
+  justify-content:space-between;
+}
+.services-text{
+  width:60%;
+}
+.services-img{
+  width:35%;
+}
 /* ---------------------------media queries----------------------------- */
 
 @media screen and (min-width:350px) {
