@@ -137,6 +137,9 @@ img{
 .light-dark-blue{
   color:#205e82;
 }
+.darkest-blue{
+  color:#243646;
+}
 .white{
   color:#c7c8d4;
 }
@@ -455,9 +458,13 @@ footer a:hover{
 .mastered{
   width:140px;
   background-color:#39bb6d;
-  height:50px;
+  height:70px;
   border-radius:3px;
   margin:10px 5px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:3px;
 }
 .quote{
   display:flex;
