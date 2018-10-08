@@ -163,13 +163,13 @@ img{
   border-radius:3px;
 }
 .sec-1-bg{
-  background-image:url("sec-1-bg.png");
+  background-image:url("sec-1-bg.jpg");
 }
 .sec-2-bg{
-  background-image:url("sec-2-bg.png");
+  background-image:url("sec-2-bg.jpg");
 }
 .sec-3-bg{
-  background-image:url("sec-3-bg.png");
+  background-image:url("sec-3-bg.jpg");
 }
 .sec-1-bg, .sec-2-bg, .sec-3-bg{
   background-size:cover;
@@ -289,7 +289,7 @@ img{
 }
 .header{
     height:300px;
-    background-image: url("header-bg-2.png");
+    background-image: url("header-bg-2-biggest.jpg");
     background-size:cover;
     background-position:0 -160px;
     background-color:#cccccc;
@@ -361,6 +361,19 @@ footer a:hover{
   text-decoration:none;
   background-color:#3185b5;
   border-radius:3px;
+}
+.img-box{
+  width:55px;
+  height:55px;
+  background-color:#c7c8d4;
+  border-radius:3px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.img-box img{
+  width:45px;
+  height:45px;
 }
 #home-sec-2-text{
   margin:0 auto;
