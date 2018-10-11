@@ -289,9 +289,9 @@ img{
 }
 .header{
     height:300px;
-    background-image: url("header-bg-2-biggest.jpg");
+    background-image: url("header-bg.jpg");
     background-size:cover;
-    background-position:0 -160px;
+    background-position:0 500px;
     background-color:#cccccc;
 }
 
@@ -432,7 +432,7 @@ footer a:hover{
 }
 .text-circle{
   margin:inherit;
-  background-color:rgb(36, 54, 70, .9);
+  background-color:rgb(36, 54, 70, .8);
   border-radius:50%;
   width:inherit;
   height:inherit;
@@ -782,6 +782,13 @@ footer a:hover{
   .home-sec-2-boxes{
     margin:20px 0 0 0;
   }
+  .text-circle{
+    opacity:0;
+    transition:.5s;
+  }
+  .text-circle:hover{
+    opacity:1;
+  }
   .consulting-sec-1{
     display:flex;
     justify-content:space-evenly;
@@ -928,9 +935,14 @@ footer a:hover{
   }
   .header{
     height:600px;
+    background-position:0 600px;
   }
 }
-
+@media screen and (min-width:1800px) {
+  .header{
+    background-position:0 680px;
+  }
+}
 
 
 
