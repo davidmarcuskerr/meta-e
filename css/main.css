@@ -183,7 +183,7 @@ img{
 }
 .sec-2{
   background-color:rgba(36, 54, 70, .9);
-  color:rgb(202 203 215);
+  color:rgb(202, 203, 215);
 }
 
 /*-------dropdown nav-----------------------------------------------------------*/
@@ -224,15 +224,17 @@ img{
 
 /* Dropdown button */
 .dropdown .dropbtn {
+
   font-size: 12px;
   border: none;
   color: #cacbd7;
   outline: none;
   padding: 15.5px 0;
-  background-color: inherit;
+  background-color: rgba(36, 54, 70, .01);
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
   width:100%;
+  transition:.3s;
 }
 .navbar a, .dropdown, .navbar button{
   width:16.666666%;
@@ -240,7 +242,7 @@ img{
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn, .dropdown-content a:hover{
-  background-color: rgb(21 192 235);
+  background-color: rgb(21, 192, 235);
   color:white;
 }
 
@@ -248,7 +250,7 @@ img{
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: rgb(36 54 70);
+  background-color: rgb(36, 54, 70);
   width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -432,7 +434,7 @@ footer a:hover{
 }
 .text-circle{
   margin:inherit;
-  background-color:rgb(36, 54, 70, .8);
+  background-color:rgba(36, 54, 70, .8);
   border-radius:50%;
   width:inherit;
   height:inherit;
@@ -444,7 +446,7 @@ footer a:hover{
 }
 .home-nametag{
   margin:0 auto;
-  background-color:rgb(36 54 70);
+  background-color:rgb(36, 54, 70);
   text-align:center;
   font-size:1.4em;
   width:200px;
